@@ -1,0 +1,92 @@
+.container-header {
+    background-color: grey;
+}
+
+.container-content {
+    padding-bottom: 32px;
+}
+
+.col-4 {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: rgba(145, 197, 140, 0.827);
+    background-image: url("img/grass-field-sunset-wallpaper-3.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+    height: 300px;
+    color:white;
+    margin-top: 50px;
+}
+
+.bg-custom {
+    background-color: green
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: green
+}
+
+.btn-primary:hover {
+    background-color: rgb(145, 197, 140);
+    border-color: green
+}
+
+.img-resize {
+    height: 150px;
+}
+
+.map-style {
+    align-content: center;
+    width: 90%;
+    height: 90%;
+    margin: auto 0;
+}
+
+#about-us {
+    height: 400px;
+}
+
+#price-list {
+    height: 400px;
+}
+
+#contact-us {
+    height: 400px;
+}
+
+body {
+    background-color: rgb(245, 240, 240)
+}
+
+/* Call us button styles */
+
+.phonelink{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    right: 0; /* Set to the right */
+    margin: 30px; /* Add space around background */
+}
+.phoneicon{
+    width: 40px; /* Set width of icon */
+    height: 40px; /* Set height of icon */
+}
+@media screen and (max-width: 480px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+}
+@media screen and (min-width: 481px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+        display: block; /* On large screens make phone icon appear */
+    }
+}
+
