@@ -1,3 +1,7 @@
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
 .container-header {
     background-color: grey;
 }
@@ -31,6 +35,11 @@
 .btn-primary:hover {
     background-color: rgb(145, 197, 140);
     border-color: green
+}
+
+.table .thead-dark th {
+    background-color: green;
+    border-color: green;
 }
 
 @media (max-width: 575px) { 
@@ -79,11 +88,6 @@
 }
 
 #about-us {
-    height: 400px;
-    max-height: 400px;
-}
-
-#testimonials {
     height: 400px;
     max-height: 400px;
 }
