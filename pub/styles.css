@@ -92,9 +92,6 @@
     max-height: 400px;
 }
 
-#contact-us {
-    height: 400px;
-}
 
 body {
     background-color: rgb(245, 240, 240)
@@ -153,6 +150,7 @@ body {
     /* -webkit-animation: slideleft 20000s infinite linear; */
     background-size: cover;
     min-height: 300px;
+    margin-bottom: 16px;
 }
 
 @keyframes slideleft {
