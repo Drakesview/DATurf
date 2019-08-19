@@ -11,13 +11,12 @@
 }
 
 .jumbotron {
-    background-color: rgba(145, 197, 140, 0.827);
+    background-color: rgb(145, 197, 140);
     background-image: url("img/grass-field-sunset-wallpaper-3.jpg");
     background-repeat: no-repeat;
     background-position: 100% 60%;
     height: 300px;
     color:white;
-    margin-top: 50px;
 }
 
 .bg-custom {
@@ -34,8 +33,42 @@
     border-color: green
 }
 
+@media (max-width: 575px) { 
+    .img-resize {
+        height: 286.48px;
+    } 
+}
+
+@media (min-width: 576px) { 
 .img-resize {
-    height: 150px;
+    height: 111px;
+    }
+    .wthree-slider {
+        min-height:280px;
+    }   
+}
+
+@media (min-width: 768px) {
+.img-resize {
+    height: 156px;
+    }  
+}
+
+@media (min-width: 992px) { 
+    .img-resize {
+        height: 216px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+.img-resize {
+    height: 260px;
+}
+}
+
+.mySlides {
+    height: auto;
+    width: 80%;
 }
 
 .map-style {
@@ -47,10 +80,12 @@
 
 #about-us {
     height: 400px;
+    max-height: 400px;
 }
 
-#price-list {
+#testimonials {
     height: 400px;
+    max-height: 400px;
 }
 
 #contact-us {
@@ -73,6 +108,19 @@ body {
     width: 40px; /* Set width of icon */
     height: 40px; /* Set height of icon */
 }
+
+.scrollTop {
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin: 30px;
+    display: none;
+}
+
+.scrollicon {
+    width: 40px;
+    height:40px;
+}
 @media screen and (max-width: 480px){
     .lgscreenphone{
         display: none;  /* On small screens make phone icon disappear */
@@ -90,3 +138,35 @@ body {
     }
 }
 
+
+/* Test Slider */
+
+/* slides images */
+.wthree-slider {
+    background-image: url("../pub/img/Slider.png");
+    background-repeat: repeat-x;
+    animation: slideleft 20000s infinite linear;
+    /* -webkit-animation: slideleft 20000s infinite linear; */
+    background-size: cover;
+    min-height: 300px;
+}
+
+@keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
+
+@-webkit-keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
