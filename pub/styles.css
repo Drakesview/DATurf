@@ -10,6 +10,16 @@
     padding-bottom: 32px;
 }
 
+.container-content .container {
+    margin-top:16px;
+    margin-bottom:16px;
+    border-bottom: 1px dashed green;
+}
+
+.card-deck {
+    margin-bottom:16px;
+}
+
 .col-4 {
     text-align: center;
 }
@@ -87,10 +97,6 @@
     margin: auto 0;
 }
 
-#about-us {
-    height: 400px;
-    max-height: 400px;
-}
 
 
 body {
